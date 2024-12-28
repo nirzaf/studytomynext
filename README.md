@@ -72,17 +72,17 @@ The documentation includes all the guides you need for the integrations.
 
 This project is built using the following technologies and dependencies:
 
-- **Next.js 13**: A React framework for production.
-- **React 18**: A JavaScript library for building user interfaces.
-- **TypeScript**: A strongly typed programming language that builds on JavaScript.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **Framer Motion**: A library for animations in React.
-- **Next Themes**: A library to handle themes in Next.js.
-- **React Hot Toast**: A library to show toast notifications in React.
-- **Swiper**: A modern mobile touch slider.
-- **Prettier**: An opinionated code formatter.
-- **ESLint**: A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
-- **pnpm**: A fast, disk space efficient package manager.
+- **Next.js 15.1.3**: A React framework for production.
+- **React 18.3.1**: A JavaScript library for building user interfaces.
+- **TypeScript 5.7.2**: A strongly typed programming language that builds on JavaScript.
+- **Tailwind CSS 3.4.17**: A utility-first CSS framework for rapid UI development.
+- **Framer Motion 10.18.0**: A library for animations in React.
+- **Next Themes 0.2.1**: A library to handle themes in Next.js.
+- **React Hot Toast 2.4.1**: A library to show toast notifications in React.
+- **Swiper 9.4.1**: A modern mobile touch slider.
+- **Prettier 3.4.2**: An opinionated code formatter.
+- **ESLint 8.41.0**: A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+- **pnpm 8.6.0**: A fast, disk space efficient package manager.
 
 ### Deploying on PaaS
 
