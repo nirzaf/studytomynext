@@ -16,16 +16,21 @@ const Header = () => {
 
   // Sticky menu
   const handleStickyMenu = () => {
-    if (window.scrollY >= 80) {
-      setStickyMenu(true);
-    } else {
-      setStickyMenu(false);
+    if (typeof window !== "undefined") {
+      if (window.scrollY >= 80) {
+        setStickyMenu(true);
+      } else {
+        setStickyMenu(false);
+      }
     }
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleStickyMenu);
-  });
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", handleStickyMenu);
+      return () => window.removeEventListener("scroll", handleStickyMenu);
+    }
+  }, []);
 
   return (
     <header
@@ -173,7 +178,5 @@ const Header = () => {
     </header>
   );
 };
-
-// w-full delay-300
 
 export default Header;
