@@ -55,26 +55,34 @@ Here are the steps you need to follow to install the dependencies.
 2.**cd** into the template directory then run this command to install all the dependencies
     
 ```bash
-    npm install
+    pnpm install
 ```
     
-or
-    
-```bash
-    yarn install
- ```
-
-
 You can start the project on the local server
     
 ```bash
-    npm run dev
+    pnpm run dev
  ```
 
 It’ll start the template on [localhost:3000](http://localhost:3000). 
 
 The documentation includes all the guides you need for the integrations. 
 
+## Technical Stack
+
+This project is built using the following technologies and dependencies:
+
+- **Next.js 13**: A React framework for production.
+- **React 18**: A JavaScript library for building user interfaces.
+- **TypeScript**: A strongly typed programming language that builds on JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Framer Motion**: A library for animations in React.
+- **Next Themes**: A library to handle themes in Next.js.
+- **React Hot Toast**: A library to show toast notifications in React.
+- **Swiper**: A modern mobile touch slider.
+- **Prettier**: An opinionated code formatter.
+- **ESLint**: A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+- **pnpm**: A fast, disk space efficient package manager.
 
 ### Deploying on PaaS
 
